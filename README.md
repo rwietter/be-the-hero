@@ -1,2 +1,1 @@
-# be-the-hero
- Application developed in the omnistack week 11
+<h2 align="center> Be The Hero </h2>

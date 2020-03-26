@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  🚀 Semana OmniStack 10.0
+  🚀 Semana OmniStack 11.0
 </h4>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rwietter/be-the-hero">
@@ -35,11 +35,11 @@
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
 
-Libs:
+#### Libs:
   - [Knexjs](http://knexjs.org)
   - [Express](https://expressjs.com/pt-br/)
     
-Styles:
+#### Styles:
   - [Eslint](https://eslint.org)
   - [Prettier](https://prettier.io)
 
@@ -59,4 +59,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 <b> Projeto desenvolvido na OmniStack week 11 | BeTheHero </b> 🦸
 
-Semana OmniStack 11 by Rocketseat :rocket:
+<b> Semana OmniStack 11 by <i> Rocketseat </i> </b> :rocket:

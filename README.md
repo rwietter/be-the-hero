@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
@@ -41,7 +41,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 O BeTheHero é um projeto que visa auxiliar ONGS a encontrar animais em situação de abandono ou maus tratos com a contribuição de outras pessoas.
 
 ## 🔖 Layout
-
+unset
 
 
 ## :memo: Licença

@@ -45,7 +45,7 @@
 
 ## :computer: Projeto
 
-O BeTheHero é um projeto que visa auxiliar ONGS a encontrar animais em situação de abandono ou maus tratos com a contribuição de outras pessoas.
+O BeTheHero é um projeto que visa auxiliar ONGS a encontrar animais em situação de abandono ou maus tratos com a ajuda de outras pessoas.
 
 ## 🔖 Layout
 unset
@@ -57,6 +57,6 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ---
 
-<b> Projeto desenvolvido na OmniStack week 11 | BeTheHero </b> { 🦸 }
+<b> Projeto desenvolvido durante OmniStack week 11 | BeTheHero </b> { 🦸 }
 
 <b> Semana OmniStack 11 by <i> Rocketseat </i> </b> :rocket:

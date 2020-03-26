@@ -57,6 +57,6 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ---
 
-<b> Projeto desenvolvido na OmniStack week 11 <> { 🦸 } </> BeTheHero </b> 
+<b> Projeto desenvolvido na OmniStack week 11 | BeTheHero </b> { 🦸 }
 
 <b> Semana OmniStack 11 by <i> Rocketseat </i> </b> :rocket:

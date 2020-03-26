@@ -28,13 +28,20 @@
 
 ## :rocket: Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+#### Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/en/)
 - [React](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
-- [Knexjs](http://knexjs.org)
+
+Libs:
+  - [Knexjs](http://knexjs.org)
+  - [Express](https://expressjs.com/pt-br/)
+    
+Styles:
+  - [Eslint](https://eslint.org)
+  - [Prettier](https://prettier.io)
 
 ## :computer: Projeto
 
@@ -49,5 +56,7 @@ unset
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ---
+
+<b> Projeto desenvolvido na OmniStack week 11 | BeTheHero </b> 🦸
 
 Semana OmniStack 11 by Rocketseat :rocket:

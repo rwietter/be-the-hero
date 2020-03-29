@@ -1,8 +1,7 @@
-
-exports.up = function(knex) {
+exports.up = function (knex) {
   return knex.schema.createTable('incidents', function (table) {
     // auto increment id
-    table.increments(); 
+    table.increments();
 
     // table
     table.string('title').notNullable();
@@ -13,10 +12,10 @@ exports.up = function(knex) {
     table.string('ong_id').notNullable();
 
     // foreign key
-    table.foreign('ong_id').references('id').inTable('ongs')
-  })
+    table.foreign('ong_id').references('id').inTable('ongs');
+  });
 };
 
-exports.down = function(knex) {
-  return knex.schema.dropTable('incidents')
+exports.down = function (knex) {
+  return knex.schema.dropTable('incidents');
 };

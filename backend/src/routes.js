@@ -18,7 +18,7 @@ try {
   routes.get('/incidents', incidentsController.index);
   routes.delete('/incidents/:id', incidentsController.delete);
 } catch (e) {
-  console.log('Router', e);
+  console.log(e);
 }
 
 module.exports = routes;

@@ -6,7 +6,6 @@ module.exports = {
     const { page = 1 } = request.query;
 
     const [maxIncidentsCouter] = await connection('incidents').count();
-    console.log(maxIncidentsCouter);
     const incidents = await connection('incidents')
       .join('ongs', 'ong_id', '=', 'incidents.ong_id')
       .limit(5)
@@ -40,18 +39,22 @@ module.exports = {
 
   // delete incidents router
   async delete(request, response) {
-    const { id } = request.params;
-    const ong_id = request.headers.authorization;
-    const incidents = await connection('incidents')
-      .where('id', id)
-      .select('ong_id')
-      .first();
-    if (incidents.ong_id !== ong_id) {
-      return response.status(401).json({
-        error: 'Operation not permitted.',
-      });
+    try {
+      const { id } = request.params;
+      const ong_id = request.headers.authorization;
+      const incidents = await connection('incidents')
+        .where('id', id)
+        .select('ong_id')
+        .first();
+      if (incidents.ong_id !== ong_id) {
+        return response.status(401).json({
+          error: 'Operation not permitted.',
+        });
+      }
+      await connection('incidents').where('id', id).delete();
+      return response.status(204).send(); // send(not message) message without body(204)
+    } catch (e) {
+      console.log(e);
     }
-    await connection('incidents').where('id', id).delete();
-    return response.status(204).send(); // send(not message) message without body(204)
   },
 };

@@ -29,7 +29,6 @@ export default function Register() {
     };
     try {
       const id = await api.get('ongs');
-      console.log(id.data[0].name);
 
       for (let i = 0; i < id.data.length; i++) {
         if (id.data[i].name === name) {

@@ -1,5 +1,5 @@
 const connectionDatabase = require('../database/connection');
-const crypto = require('crypto');
+const generateCryptoId = require('../utils/generateCryptoId');
 
 module.exports = {
   async index(request, response) {
@@ -8,10 +8,10 @@ module.exports = {
   },
 
   async create(request, response) {
-    const data = request.body; // dados do corpo da função
+    const data = request.body;
     const { name, email, whatsapp, city, uf } = data;
 
-    const id = crypto.randomBytes(4).toString('HEX'); // generator crypto
+    const id = generateCryptoId();
 
     await connectionDatabase('ongs').insert({
       id,
@@ -22,6 +22,6 @@ module.exports = {
       uf,
     });
 
-    return response.json({ id }); // create a new route
+    return response.json({ id });
   },
 };
